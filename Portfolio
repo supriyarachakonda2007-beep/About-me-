@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Links in HTML - Supriya</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .btn { background: black; color: white; padding: 10px 18px; text-decoration: none; border-radius: 20px; }
+    .card { border: 1.5px solid black; padding: 15px; border-radius: 12px; margin-top: 15px; }
+  </style>
+</head>
+<body>
+
+  <h1>HTML Link Examples</h1>
+
+  <!-- 1. Simple Link -->
+  <div class="card">
+    <h3>1. Simple Link</h3>
+    <a href="https://www.google.com">Go to Google</a>
+  </div>
+
+  <!-- 2. Link in New Tab -->
+  <div class="card">
+    <h3>2. Open in New Tab</h3>
+    <a href="https://github.com" target="_blank">Open GitHub in New Tab</a>
+  </div>
+
+  <!-- 3. Email Link -->
+  <div class="card">
+    <h3>3. Email Link</h3>
+    <a href="mailto:supriya@gmail.com">Email Me</a>
+  </div>
+
+  <!-- 4. Button Link (For Portfolio) -->
+  <div class="card">
+    <h3
