@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supriya | BSc AI Student</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Space Grotesk',sans-serif}
+  body{background:#fafaf7;color:#111}
+  .container{max-width:1000px;margin:auto;padding:20px}
+  header{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+  .logo{font-weight:700;font-size:22px}
+  .btn{background:#111;color:#fff;padding:10px 18px;border-radius:30px;text-decoration:none}
+  .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;margin-top:40px;align-items:center}
+  .hero h1{font-size:52px;line-height:1.1}
+  .hero h1 span{background:#ffdb58;padding:0 10px}
+  .tag{background:#fff;border:1px solid #111;border-radius:20px;padding:6px 12px;display:inline-block;margin:8px 6px 0 0;font-size:14px}
+  .card{background:#fff;border:1.5px solid #111;border-radius:18px;padding:24px;margin-top:24px;box-shadow:6px 6px 0 #111}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+  .skill-bar{background:#eee;height:8px;border-radius:10px;margin-top:8px}
+  .skill-fill{height:8px;background:#111;border-radius:10px}
+  footer{text-align:center;padding:40px 0;color:#666}
+  @media(max-width:768px){.hero{grid-template-columns:1fr}.hero h1{font-size:38px}.grid2,.grid3{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">Supriya.dev</div>
+    <a class="btn" href="#contact">Contact Me</a>
+  </header>
+
+  <div class="hero">
+    <div>
+      <p>Hi, I'm Supriya 👋</p>
+      <h1>2nd Year <span>BSc AI</span> Student & Aspiring AI Developer</h1>
+      <p style="margin-top:16px;color:#444;">Learning Artificial Intelligence, building with Python, and exploring data. Second-time hackathon participant passionate about solving real-world problems with AI.</p>
+      <div style="margin-top:20px">
+        <span class="tag">Python Basics</span>
+        <span class="tag">Numpy</span>
+        <span class="tag">Pandas</span>
+        <span class="tag">HTML</span>
+        <span class="tag">C Basics</span>
+        <span class="tag">AI Basics</span>
+      </div>
+    </div>
+    <div class="card" style="text-align:center">
+      <h3>Hackathon Journey 🚀</h3>
+      <p style="margin-top:10px;font-size:36px;font-weight:700;">2x</p>
+      <p>Hackathon Participant</p>
+      <p style="margin-top:12px;color:#555;">Building, learning, and collaborating to create AI solutions.</p>
+      <a class="btn" style="display:block;margin-top:16px;" href="#">View Projects</a>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>About Me</h3>
+      <p style="margin-top:10px;color:#444;">I'm Supriya, currently pursuing 2nd Year BSc in Artificial Intelligence. I'm curious about how AI can transform everyday life. I love working with data using Python, Numpy & Pandas and building simple web pages with HTML.</p>
+    </div>
+    <div class="card">
+      <h3>Skills</h3>
+      <div style="margin-top:12px">
+        <p>Python <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div></p>
+        <p style="margin-top:10px">Numpy / Pandas <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div></p>
+        <p style="margin-top:10px">HTML <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></p>
+        <p style="margin-top:10px">C & AI Basics <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Projects & Hackathons</h3>
+    <div class="grid3" style="margin-top:16px">
+      <div style="border:1px dashed #111;padding:14px;border-radius:12px">
+        <b>AI Exploration Project</b><br><small>Used Pandas & Numpy for data analysis basics. Learning phase.</small>
+      </div>
+      <div style="border:1px dashed #111;padding:14px;border-radius:12px">
+        <b>Hackathon #2 - 2026</b><br><small>Second-time participant. Team collaboration & rapid prototyping.</small>
+      </div>
+      <div style="border:1px dashed #111;padding:14px;border-radius:12px">
+        <b>Portfolio Website</b><br><small>Built with HTML, CSS - This website itself!</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="contact">
+    <h3>Let's Connect</h3>
+    <p style="margin-top:8px">Open to internships, hackathons & learning collaborations.</p>
+    <p style="margin-top:12px"><b>Email:</b> supriya.yourname@gmail.com</p>
+    <p><b>LinkedIn:</b> linkedin.com/in/supriya</p>
+    <p><b>GitHub:</b> github.com/supriya</p>
+    <p style="margin-top:10px;font-size:13px;color:#666">Replace with your real links before publishing.</p>
+  </div>
+
+  <footer>© 2026 Supriya - Built with ❤️ for Hackathons</footer>
+</div>
+</body>
+</html>
